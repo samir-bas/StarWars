@@ -1,0 +1,14 @@
+body {
+  /* use all the space  */
+  min-height: 100vh;
+  /* la position relative et la position absolue vont de pair 
+  il faut que le parent soit en position relative et l'enfant absolue */
+  position: relative;
+  font-family: 'Dosis', sans-serif;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
